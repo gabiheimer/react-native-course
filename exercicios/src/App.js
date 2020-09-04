@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, StyleSheet } from "react-native";
 import Primeiro from './components/Primeiro';
+import Botao from './components/Botao';
 
 export default () => {
     return (
@@ -8,6 +9,7 @@ export default () => {
             <Primeiro />
             <Primeiro />
             <Primeiro />
+            <Botao/>
         </View>
     );
 }
